@@ -2256,13 +2256,14 @@ return [
             This report contains checks for a high number of vulnerabilities. We highly recommend going to <a target='_blank' href='https://www.shadowserver.org/what-we-do/network-reporting/vulnerable-http-report/'>the list at Shadowserver</a> to find the vulnerability reported on and steps that can be taken to mitigate the issue.</p> 
             ",
     ],
-    
+
     'DARKNET' => [
         'name'        => 'Service contacting darknets',
         'description' => '
             This classification has no information text yet.
             ',
     ],
+
     'eicc(stix2)' => [
         'name'        => 'ei.cc',
         'description' => '
@@ -2466,11 +2467,11 @@ return [
             It is recommended to keep these ports firewalled from the public Internet.</p>',
     ],
 
-   'ACCESSIBLE_IMAP' => [
+    'ACCESSIBLE_IMAP' => [
         'name'         => 'Accessible IMAP',
         'description'  => '
             <p>This report identifies hosts that have a IMAP service running on port 143/TCP or 993/TCP.</p>',
-    ], 
+    ],
 
     'ACCESSIBLE_POP3' => [
         'name'         => 'Accessible POP3',
